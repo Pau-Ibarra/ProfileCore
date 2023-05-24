@@ -1,0 +1,216 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{/*Mi viewport*/
+    display: flex;
+    flex-direction: column;
+    /*width: 95%;*/
+
+}
+.topBar{
+    width: 95%;
+    height:120px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.topBar-title{
+    flex:3;
+    padding: 2px;
+    margin-left: 50px;
+    /*margin: 0 auto;*/
+
+}
+.linksBar{
+    flex:1;
+    list-style: none;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    /*margin: 0 auto;*/
+    padding: 20px
+    
+}
+strong, a{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    width: 80px;
+    flex:1;
+    background-color: rgb(19, 232, 240);
+    color: white;
+    font-weight: 600;
+    margin-right: 50px;
+
+}
+.bigBox{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    border: 2px solid black;
+    
+}
+.leftColumn, rightColumn{
+    /*width: 35%;*/
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-left: 200px;
+
+}
+.leftColumn{
+    flex: 2;
+}
+.rightColumn{
+    flex: 1;
+    
+}
+/*.rightColumn{
+    width: 35%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    
+
+}*/
+.profile{
+    border: 3px solid cadetblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    height: 300px;
+    width: 35%; 
+    position:absolute;
+    top: 200px;
+    left: 100px;
+    border: 3px solid cadetblue;
+
+}
+.profileBar{
+    height: 50px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 5px;
+}
+.profileImg{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 1.5px solid grey;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: aliceblue;
+    height: 30px;
+}
+.profileContent{
+
+}
+.name{
+    padding-top: 15px;
+}
+.ubicacion, .editProfile{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin: 10px;
+}
+
+.icon{
+    height: 15px;
+}
+.parrafo{
+    margin: 10px;
+    
+}
+.education{
+
+}
+/*.cajaGris-left, cajaGris-right{
+    border: 3px solid grey;
+    font-weight: 600;
+    height: 200px;
+    width: 35%; 
+    position:absolute;
+    top: 550px;
+    left: 100px;*/
+  
+.cajaGris-left, .cajaGris-right{
+    border: 3px solid grey;
+    font-weight: 600;
+    height: 300px;
+    position:absolute;
+    top: 450px;
+    left: 100px;
+    width: 35%;
+}   
+
+.franjaNegra{
+    height: 50px;
+    background-color: rgb(48, 42, 42);
+    display: flex;
+    flex-direction: row;
+    /*position:;*/
+    color: white;
+    font-size: smaller;
+    margin-bottom: 20px;
+    padding:20px;
+    text-align: center;
+    box-sizing: inherit;
+}
+.cajaGris-right, .cajaGris-right-2{
+    border: 3px solid grey;
+    font-weight: 600;
+    height: 300px;
+    width: 25%; 
+    position:absolute;
+    top: 200px;
+    left: 1000px;
+    width: 25%; 
+    } 
+.cajaGris-right{
+    top:200px;
+}
+.cajaGris-right-2{
+    top: 500px;
+}
+  
+.imgContacto{
+    /*position: absolute;*/
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 1.5px solid grey;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: aliceblue;
+    height: 15px;
+}
+.contactRequest{
+
+}
+.contacts{
+
+}
+.nroContacto{
+    background-color: grey;
+    border-radius: 50%;
+    color: black;
+    display: inline-block;
+    flex-direction: row;
+    padding: 10px;
+    margin-left: 10px;
+}
+.clickHere{
+    color: cadetblue;
+    text-decoration: underline;
+}
+.
